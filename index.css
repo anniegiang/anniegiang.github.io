@@ -1,0 +1,47 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.splash-intro {
+  margin: 300px auto;
+  text-align: center;
+}
+
+#splash-intro__name {
+  position: relative;
+  font-size: 25px;
+  letter-spacing: 3px;
+  animation-name: intro-name;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+#splash-intro__profession {
+  font-size: 18px;
+  animation-name: intro-profession;
+  animation-duration: 3s;
+  animation-delay: 3;
+  animation-fill-mode: forwards;
+}
+
+@keyframes intro-name {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes intro-profession {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
